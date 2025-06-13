@@ -7,9 +7,9 @@
 ## User Management Subsystem
 ### Users should be able to:
 - Register using email verification or OTP.
--  Log in and log out securely from web or mobile.
-- iew and update their profile and account settings.
-- eset or change their password securely.
+- Log in and log out securely from web or mobile.
+- View and update their profile and account settings.
+- Reset or change their password securely.
 
 ### Administrators should be able to:
 - View and manage user profiles.
