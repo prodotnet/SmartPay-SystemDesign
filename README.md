@@ -77,3 +77,8 @@ Below are the key use cases represented visually.
 ---
 # SmartPay Database Design Diagrams
 ![Use Case 1 - SmartPay Database](Database/database.png)
+---
+
+# SmartPay Component&Deployement Design Diagrams
+![Use Case 1 - SmartPay Deployement](Deployement/deployement.png)
+---
