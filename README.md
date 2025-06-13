@@ -95,5 +95,5 @@ Below are the key use cases represented visually.
 ---
 
 # SmartPay Component&Deployement Design Diagrams
-![Use Case 1 - SmartPay Deployement](Deployement/deployement.png)
+![Use Case 1 - SmartPay Deployement](Deployement/deployment.png)
 ---
