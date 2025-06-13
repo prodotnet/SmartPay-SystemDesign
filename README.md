@@ -1,7 +1,7 @@
-
+# 📱 SmartPay Design
 
 ---
-# Functional Requirements
+#⚙️ Functional Requirements
 
 ## Users should be able to:
 - Register using email verification or OTP.
@@ -17,7 +17,7 @@
 
 ## End Users should be able to:
 - View their current wallet balance in real-time.
-- Link and unlink multiple payment methods (e.g., credit cards, bank accounts).
+- Link and unlink multiple payment methods (credit cards, bank accounts).
 - Make real-time payments to merchants or other users.
 - Top up their wallet using external funding sources.
 - View a full history of transactions, including dates, amounts, and status.
@@ -53,12 +53,28 @@
 - Receive alerts for login from new devices or suspicious activity.
 
 ## Administrators should be able to:
-- Define and manage roles and access levels (e.g., admin vs. support staff).
+- Define and manage roles and access levels (admin vs. support staff).
 - Ensure system compliance with PCI DSS and GDPR.
 - Monitor system logs for anomalies or unauthorized access attempts.
 
 ---
-# Use Case Diagrams
+
+## ⚙️ Non-Functional Requirements – Smart Pay Digital Wallet
+1. Real-Time Notification Accuracy
+100% of successful or failed wallet-related operations ( payments, top-ups, account linking) must trigger a real-time notification that is displayed to the user within 2 seconds of the operation’s completion.
+
+2. OTP Delivery Timing
+One-Time Passwords (OTPs) for login and registration must be delivered to the user via email or SMS within 5 seconds of the request being triggered.
+
+3. Transaction Responsiveness
+All user-initiated payment transactions must be reflected in the wallet balance and transaction history within 1.5 seconds on both web and mobile platforms.
+
+4. Wallet Top-Up Reflection
+Wallet top-up actions initiated via linked bank accounts or cards must reflect updated balances in the user's dashboard within 3 seconds of receiving external confirmation.
+
+
+---
+# 📊 Use Case Diagrams
 
 Below are the key use cases represented visually.
 
@@ -74,5 +90,5 @@ Below are the key use cases represented visually.
 ![Notification Management](UseCases/NotificationManagement.png)
 
 ---
-# SmartPay Database Design Diagrams
+# 🗃️ SmartPay Database Design Diagrams
 ![Use Case 1 - SmartPay Database](Database/database.png)
