@@ -1,7 +1,5 @@
 
 
-
-
 ---
 # Functional Requirements
 
@@ -64,15 +62,16 @@
 
 Below are the key use cases represented visually.
 
-![Use Case 1 - User Management](UseCases/UserManagement.png)
+![User Management](UseCases/UserManagement.png)
 
-![Use Case 2 - Payment Management](UseCases/PaymentManagement.png)
+![Payment Management](UseCases/PaymentManagement.png)
 
-![Use Case 3 - Notification Management](UseCases/NotificationManagement.png)
 
-![Use Case 4 - Admin Management](UseCases/AdminManagement.png)
+![Admin Management](UseCases/AdminManagement.png)
  
-![Use Case 5 - Report Management](UseCases/ReportManagement.png)
+![Report Management](UseCases/ReportManagement.png)
+
+![Notification Management](UseCases/NotificationManagement.png)
 
 ---
 # SmartPay Database Design Diagrams
