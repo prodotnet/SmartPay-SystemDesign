@@ -75,3 +75,5 @@ Below are the key use cases represented visually.
 ![Use Case 5 - Report Management](UseCases/ReportManagement.png)
 
 ---
+# SmartPay Database Design Diagrams
+![Use Case 1 - SmartPay Database](Database/database.png)
