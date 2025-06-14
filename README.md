@@ -1,7 +1,7 @@
-# 📱 SmartPay Design
+# 📱SmartPay Design
 
 ---
-#⚙️ Functional Requirements
+# ⚙️Functional Requirements
 
 ## Users should be able to:
 - Register using email verification or OTP.
@@ -74,6 +74,19 @@ Wallet top-up actions initiated via linked bank accounts or cards must reflect u
 
 
 ---
+# 📌Development Methodology: Agile
+SmartPay is being developed using the Agile methodology to allow for iterative progress, continuous feedback, and rapid adaptation to user needs and technical discoveries. Features are broken into prioritized sprints, enabling the team to deliver working functionality frequently and adjust direction based on stakeholder feedback or market conditions.
+
+## Why Agile?
+
+- Agile supports changing requirements – perfect for a fast-evolving fintech product like a digital wallet.
+
+- It allows us to deliver an early MVP with core functionality (like registration, payments, and balance tracking), then expand features (e.g., reports, fraud detection, analytics) in future sprints.
+
+- Frequent testing and feedback loops ensure security, performance, and usability are refined throughout development.
+
+
+----
 # 📊 Use Case Diagrams
 
 Below are the key use cases represented visually.
@@ -91,9 +104,57 @@ Below are the key use cases represented visually.
 
 ---
 # 🗃️ SmartPay Database Design Diagrams
-![Use Case 1 - SmartPay Database](Database/database.png)
+![SmartPay Database](Database/database.png)
 ---
 
 # SmartPay Component&Deployement Design Diagram
-![Use Case 1 - SmartPay Deployement](Deployement/deployment.png)
+![SmartPay Deployement](Deployement/deployment.png)
 ---
+
+# 🧰 SmartPay Technology Stack
+
+SmartPay uses a modern, full-stack Microsoft and open-source ecosystem to deliver a scalable and cross-platform digital wallet experience.
+
+---
+
+## 🖥️ Frontend (Web)
+- **Framework**: Angular 17
+- **UI Libraries**: Angular Material, Bootstrap
+- **State Management**: RxJS, Services
+- **Testing**: Jasmine, Karma, Playwright (E2E)
+
+---
+
+## 📱 Frontend (Mobile)
+- **Platform**: .NET MAUI
+- **Target**: Android and iOS
+- **Architecture**: MVVM with Dependency Injection
+- **Testing**: NUnit, MAUI UITest or Appium
+
+---
+
+## 🌐 Backend (API)
+- **Framework**: ASP.NET Core Web API (8.0+)
+- **Architecture**: Clean Architecture with Dependency Injection
+- **Security**: JWT Auth, IdentityServer 
+- **Testing**: xUnit, Moq
+
+---
+
+## 🗄️ Database
+- **Primary DB**: Microsoft SQL Server
+- **ORM**: Entity Framework Core
+- **Migrations**: EF Core Migrations
+- **Testing**: In-memory provider or SQL Server Testcontainers
+
+---
+
+## 🛡️ Security
+- HTTPS everywhere
+- JWT tokens with role-based access
+- 2FA ready (via email or SMS integration)
+- Database encryption at rest
+
+---
+
+
