@@ -72,20 +72,6 @@ All user-initiated payment transactions must be reflected in the wallet balance 
 4. Wallet Top-Up Reflection
 Wallet top-up actions initiated via linked bank accounts or cards must reflect updated balances in the user's dashboard within 3 seconds of receiving external confirmation.
 
-
----
-# 📌Development Methodology: Agile
-SmartPay is being developed using the Agile methodology to allow for iterative progress, continuous feedback, and rapid adaptation to user needs and technical discoveries. Features are broken into prioritized sprints, enabling the team to deliver working functionality frequently and adjust direction based on stakeholder feedback or market conditions.
-
-## Why Agile?
-
-- Agile supports changing requirements – perfect for a fast-evolving fintech product like a digital wallet.
-
-- It allows us to deliver an early MVP with core functionality (like registration, payments, and balance tracking), then expand features (e.g., reports, fraud detection, analytics) in future sprints.
-
-- Frequent testing and feedback loops ensure security, performance, and usability are refined throughout development.
-
-
 ----
 # 📊 Use Case Diagrams
 
